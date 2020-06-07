@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+    <meta charset="UTF-8">
+     <meta name="keywords" content="Hasvitha,Hasvitha, Varma,IIITH">
+        <meta name="author" content="Hasvitha Varma">
+	<link rel="stylesheet" text="text/css" href="css/style.css">
+	<link rel="stylesheet" text="text/css" href="css/top.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head> 
+	
+<body style="background-color:#6094B7" id="Home">
+	<section  id="Home">
+		<div id="navbar">
+			<div class="container">
+
+
+<div class="left">
+	<ul>
+		<li><a  href="index.html">HOME</a></li>
+
+</ul>
+</div>
+<div class="right">
+	<ul>
+		<li><a   href="about.html">ABOUT</a></li>
+	<li><a  href="interests.html">INTERESTS</a></li>
+		<li><a  href="contact.html">CONTACT</a></li>
+			<li><a  href="feedback.html">FEEDBACK</a></li>
+	
+
+	</ul>
+</div>
+</div>
+</div>
+	<div class="infott">
+        <div class="container">
+            <h1 style="color:black">Leave a feedback ;)</h1>
+            <input type="button" value="Click Me!" id="countButton" />
+            <p>You clicked me <span id="displayCount"></span> times :(</p>
+            
+            <form id="formElement">
+                <div class="form-group">
+                    <input type="name" id="personName" placeholder="Your Name" required>
+                </div>
+                <select id="skill" required>
+                    <option selected disabled>Select skill</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="Javascript">Javascript</option>
+                </select>
+                        
+                <select id="level" required>
+                    <option selected disabled>Select level</option>
+                    <option value="Proficient">Proficient</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Beginner">Beginner</option>
+                </select>
+                <br>
+                <div class="form-group">
+                    <input type="comment" id="comment" placeholder="Comments" required>
+                </div>
+
+                <input type="submit" id="submitButton">
+            </form>
+        
+            <table id="feedBackTable">
+                <tr>
+                        <th style="text-align: center;" colspan="5">People's thoughts 'o'</th>
+                </tr>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                    <th>Comments</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Me</td>
+                    <td>Javascript</td>
+                    <td>Intermediate</td>
+                    <td>Lol</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</section>
+    <a class="top-link hide" href="" id="js-top">
+    <span class="screen-reader-text" font-family='Nosifer'  > TOP </span>
+
+  </a>
+  <script src="javascript/top.js"></script>
+    <script src="javascript/images.js"></script>
+</body>
+</html>
